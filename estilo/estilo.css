@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#container {
+	width: 615px;
+	height: 303px;
+	margin: 100px auto;
+	position: relative;
+}
+
+#label {
+	
+	font-size: 60px;
+	font-family: Impact,sans-serif;
+	color: white;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#relogio{
+
+	background-color: #63d3db;
+	width: 500px;
+	height: 300px;
+	float: left;
+
+}
+
+#botao{
+
+	display: inline-block;
+	width: 100px;
+	height: 300px;
+	float: right;
+}
+
+#relogio form {
+	display: inline-block;
+	position: absolute;
+	left: 78px;
+	top: 113px;
+	font-size: 138px;
+}
+
+form p {
+	margin: auto;
+	text-align: center;
+	width: 29px;
+	display: inline;
+	height: 
+}
+
+#relogio form input[type="text"]{
+	height: 150px;
+	width: 170px;
+	margin-left: -35px;
+	font-size: 143px;
+}
+
+#botao{
+	background-color: rgb(132, 231, 107);
+}
+
+#botao:hover{
+	cursor: pointer;
+}
